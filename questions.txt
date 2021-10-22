@@ -1,0 +1,11 @@
+1 - Tempo maximo e minimo de jogo?
+
+2- Quantos jogadores já jogaram a mesma fase mais de 5 vezes?
+
+3- Qual o tipo de jogo é o mais popular?
+
+4- Qual a relação entre dificuldade e número de tentativas?
+
+5- Quantos jogadores existem no total e quantos deles ja criaram uma fase (mapa)?
+
+6- Qual fase é a fase quem tem o maior numero de curtidas?
