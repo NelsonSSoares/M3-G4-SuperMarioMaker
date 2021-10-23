@@ -31,7 +31,8 @@ select * from likes;
 select  gameStyle as Jogo, count(likes.id) as Likes from courses as map
 inner join likes 
 on map.id = likes.id
-group by gameStyle;
+group by gameStyle
+order by likes desc;
 
 
 
@@ -70,7 +71,10 @@ select * from likes;
 
 select  title as Fase, count(likes.id) as Likes from courses as map
 inner join likes 
-on map.id = likes.id;
+on map.id = likes.id
+group by Fase
+order by Likes desc
+limit 10;
 
 
 select * from likes;
