@@ -5,38 +5,30 @@ body{
     font-family: 'Poppins'!important;
 }
 header{
-    background: #f51110;
-    height: 720px;
-}
-.background{
-    height: 540px
-}
-.banner{
-    background: #7e9ce5!important;
-    height: 355px;
-}
-.banner img{
-    height: 570px;
+    background: #F51110 ;
 }
 .info{
     background: #FFFFFF;
     margin-top: -2%;
     box-shadow: 0px 0px 2px 0px #c8c8c8;
 }
-@media (max-width: 800px){
-    .header{
-        height: 300px;
-    }
-    .background{
-        height: 180px
-    }
-    .banner{
-        height: 125px;
-    }
-    .banner img{
-        height: 200px;
-    }
-    .title img{
-        width: 2%;
-    }
+/* STYLE SCROLL */
+::-webkit-scrollbar{
+    width: 0.3rem;
 }
+::-webkit-scrollbar-track{
+    background-color: #cccccc;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #F51110;
+    border-radius: 3rem;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #FFFFFF;
+}
+
+ @media(max-width: 700px){
+    .moedas{
+        width: 20%;
+    }
+ }
