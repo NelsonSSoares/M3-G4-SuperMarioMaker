@@ -51,14 +51,14 @@ group by fases.difficulty;
 
 
 ## 5- Quantos jogadores existem no total e quantos deles ja criaram uma fase (mapa)?
-select * from courses;
-select * from players;
 
-select count(id) from players;
+select count(jogadores.id) as Total_jogadores,
+count(map.maker) as Criadores_mapa,
+((count(map.maker) / count(jogadores.id))*100) as `% do total`
+from players as jogadores
+left join courses as map
+on jogadores.id = map.maker;
 
-select count(jogador.id) as Jogador, count(map.maker) as criador_mapa from players as jogador
-inner join courses as map
-on jogador.id = map.maker;
 
 
 
