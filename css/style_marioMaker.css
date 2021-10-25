@@ -5,14 +5,16 @@ body{
     font-family: 'Poppins'!important;
 }
 header{
-    background: #F51110 ;
+    background: #f1f1f1;
 }
 .title{
-    color: #FFFFFF
+    background: #F51110;
+    color: #FFFFFF;
 }
 .info{
     background: #FFFFFF;
-    margin-top: -2%;
+    width: 70%;
+    margin-top: -5%;
     box-shadow: 0px 0px 2px 0px #c8c8c8;
 }
 /* STYLE SCROLL */
