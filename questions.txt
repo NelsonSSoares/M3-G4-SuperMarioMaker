@@ -9,3 +9,5 @@
 5- Quantos jogadores existem no total e quantos deles ja criaram uma fase (mapa)?
 
 6- Qual fase é a fase quem tem o maior numero de curtidas?
+
+7- Quais países possuem mais jogadores?

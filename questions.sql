@@ -76,9 +76,8 @@ group by Fase
 order by Likes desc
 limit 10;
 
+## 7- Quais países possuem mais jogadores?
 
-select * from likes;
-select * from clears;
-select * from coursemeta;
-select * from courses;
-select * from players;
+select count(id) as Qtd_paises, flag from players
+group by flag
+order by Qtd_paises desc;
