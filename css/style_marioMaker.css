@@ -7,6 +7,9 @@ body{
 header{
     background: #F51110 ;
 }
+.title{
+    color: #FFFFFF
+}
 .info{
     background: #FFFFFF;
     margin-top: -2%;
@@ -22,9 +25,6 @@ header{
 ::-webkit-scrollbar-thumb{
     background-color: #F51110;
     border-radius: 3rem;
-}
-::-webkit-scrollbar-thumb:hover{
-    background-color: #FFFFFF;
 }
 
  @media(max-width: 700px){
