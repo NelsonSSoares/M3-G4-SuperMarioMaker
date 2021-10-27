@@ -17,6 +17,10 @@ header{
     margin-top: -5%;
     box-shadow: 0px 0px 2px 0px #c8c8c8;
 }
+.dados{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px #c8c8c8;
+}
 /* STYLE SCROLL */
 ::-webkit-scrollbar{
     width: 0.3rem;
