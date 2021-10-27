@@ -1,13 +1,13 @@
-1 - Tempo maximo e minimo de jogo?
+1. Relação de países que possuem o maior número de jogadores.
 
-2- Quantos jogadores já jogaram a mesma fase mais de 5 vezes?
+2. Top 3 de fases curtidas.
 
-3- Qual o tipo de jogo é o mais popular?
+3. Relação entre o total de jogadores e os que já criaram fases.
 
-4- Qual a relação entre dificuldade e número de tentativas?
+4. A relação entre dificuldade dos mapas e o número de tentativas.
 
-5- Quantos jogadores existem no total e quantos deles ja criaram uma fase (mapa)?
+5. Os dias em que os mapas são mais jogados.
 
-6- Qual fase é a fase quem tem o maior numero de curtidas?
+6. Os tipos de jogos mais populares.
 
-7- Quais países possuem mais jogadores?
+7. O número de jogadores que jogou a mesma fase mais de 5 vezes.

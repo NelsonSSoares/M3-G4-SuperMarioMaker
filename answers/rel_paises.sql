@@ -1,3 +1,7 @@
-select count(id) as Qtd_paises, flag from players
+## Relação de países que possuem o maior número de jogadores.
+
+select flag as Países,
+count(id) as Qtd_jogadores 
+from players
 group by flag
-order by Qtd_paises desc;
+order by Qtd_jogadores desc;

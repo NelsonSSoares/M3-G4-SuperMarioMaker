@@ -1,4 +1,4 @@
-## 5- Quantos jogadores existem no total e quantos deles ja criaram uma fase (mapa)?
+## Relação entre o total de jogadores e os que já criaram fases.
 
 select count(jogadores.id) as Total_jogadores,
 count(map.maker) as Criadores_mapa,
