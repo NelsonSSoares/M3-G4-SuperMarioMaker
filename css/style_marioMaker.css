@@ -55,6 +55,9 @@ body{
     background-color: #F51110;
     border-radius: 3rem;
 }
+.footer{
+    background-color: rgb(213,213,213);
+}
 
  @media(max-width: 700px){
     .moedas{
