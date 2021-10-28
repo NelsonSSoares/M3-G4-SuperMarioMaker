@@ -4,12 +4,15 @@ body{
     background: #f1f1f1!important;
     font-family: 'Poppins'!important;
 }
-header{
-    background: #f1f1f1;
-}
 .menu{
     color: #000!important;
     font-size: 1.2em;
+}
+.menu:hover{
+    transform: scale(1.04);
+}
+.scroll{
+    scroll-margin-top:5em;
 }
 .title{
     background: #F51110;
