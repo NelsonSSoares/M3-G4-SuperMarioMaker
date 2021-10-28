@@ -7,6 +7,10 @@ body{
 header{
     background: #f1f1f1;
 }
+.menu{
+    color: #000!important;
+    font-size: 1.2em;
+}
 .title{
     background: #F51110;
     color: #FFFFFF;
@@ -17,6 +21,10 @@ header{
     margin-top: -5%;
     box-shadow: 0px 0px 2px 0px #c8c8c8;
 }
+#teaser{
+    width: 75%;
+    height: 80vh;
+}
 .logo1{
     width: 15%
 }
@@ -26,6 +34,12 @@ header{
 .dados{
     background: #FFFFFF;
     box-shadow: 0px 0px 2px 0px #c8c8c8;
+}
+.link{
+    color: #F51110;
+}
+.link:hover{
+    color: #000;
 }
 /* STYLE SCROLL */
 ::-webkit-scrollbar{
@@ -42,5 +56,8 @@ header{
  @media(max-width: 700px){
     .moedas{
         width: 20%;
+    }
+    #teaser{
+        height: 40vh;
     }
  }

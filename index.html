@@ -1,48 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super Mario Maker</title>
     <!--CSS-->
-  <link rel="stylesheet" href="./css/style_marioMaker.css">
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <!--Icon-->
-  <link rel="shortcut icon" href="./img/icons/mario_profile.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style_marioMaker.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!--Icon-->
+    <link rel="shortcut icon" href="./img/icons/mario_profile.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <figure class="w-100 d-flex justify-content-center m-0">
-            <img class="w-75" src="./img/marioMaker.png"/>
+        <a id="inicio"></a>
+        <figure class="w-100 d-flex justify-content-center my-0 mt-5 pt-5">
+            <img class="w-75" src="./img/marioMaker.png" />
         </figure>
         <section class="d-flex justify-content-center">
             <article class=" title w-75 row pb-5 mb-5 justify-content-center">
                 <figure class=" d-flex justify-content-center col-lg-2 col-sm-12">
-                    <img class="moedas" src="./img/icons/mooedas_pixel.PNG"/>
+                    <img class="moedas" src="./img/icons/mooedas_pixel.PNG" />
                 </figure>
                 <div class="d-flex justify-content-center col-lg-8 col-sm-12 align-items-center">
                     <h2 class="text-center"> Faça do seu jeito, jogue do seu jeito.</h2>
                 </div>
                 <figure class="d-flex justify-content-center col-lg-2 col-sm-12">
-                    <img class="moedas" src="./img/icons/mooedas_pixel.PNG"/>
+                    <img class="moedas" src="./img/icons/mooedas_pixel.PNG" />
                 </figure>
             </article>
         </section>
     </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="menu navbar-brand" href="#inicio">Início</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active menu" aria-current="page" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" href="#dado">Dados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" href="#informa">Informações adicionais</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <a id="sobre"></a>
     <section class="d-flex align-items-center flex-column">
         <article class="info">
-            <h3 class="p-5">Sobre o jogo:</h3>
-            <p class="fs-5 px-5">Super Mario Maker é um jogo de plataforma lançado em dezembro de 2015. O jogo permite a criação, customização e o compartilhamento online de mapas para que outros jogadoes possam enfrentar os desafios criados.</p>
-            <p class="fs-5 px-5">É possível criar e jogar mapas com elementos de outros títulos da franquia -  Super Mario Bros., Super Mario Bros. 3, Super Mario World e New Super Mario Bros.</p>
-            <p class="fs-5 px-5">O jogo é visto por fãs como uma comemoração aos 30 anos da franquia. Sua jogabilidade permite mesclar características clássicas e modernas em mapas personalizados, envolvendo habilidade e criatividade de jogadores e jogadoras.</p>
-            <p class="fs-5 px-5 pb-5">Atualmente os idiomas em que o jogo é disponibilizado são: Espanhol, Francês e Inglês.</p>
+            <a id="sobre">
+                <h3 class="p-5">Sobre o jogo:</h3>
+                <p class="fs-5 px-5">Super Mario Maker é um jogo de plataforma lançado em dezembro de 2015. O jogo
+                    permite a criação, customização e o compartilhamento online de mapas para que outros jogadoes possam
+                    enfrentar os desafios criados.</p>
+                <p class="fs-5 px-5">É possível criar e jogar mapas com elementos de outros títulos da franquia - Super
+                    Mario Bros., Super Mario Bros. 3, Super Mario World e New Super Mario Bros.</p>
+                <p class="fs-5 px-5">O jogo é visto por fãs como uma comemoração aos 30 anos da franquia. Sua
+                    jogabilidade permite mesclar características clássicas e modernas em mapas personalizados,
+                    envolvendo habilidade e criatividade de jogadores e jogadoras.</p>
+                <p class="fs-5 px-5 pb-5">Atualmente os idiomas em que o jogo é disponibilizado são: Espanhol, Francês e
+                    Inglês.</p>
         </article>
         <figure class="d-flex align-items-center justify-content-center">
             <img class="logo2" src="./img/logo/superMarioWorld..png">
@@ -50,14 +82,18 @@
             <img class="logo1" src="./img/logo/superMarioBros3..png">
             <img class="logo2" src="./img/logo/superMarioBros_U..png">
         </figure>
+        <div class="d-flex justify-content-center">
+            <iframe id="teaser" autostart="false" src="./img/SuperMarioMaker_gameTeaser.mp4"></iframe>
+        </div>
     </section>
-
-    <main class=" d-flex justify-content-center">
+    <main class="d-flex justify-content-center">
         <section class="w-75">
-            <h3 class="my-5"> <i class="fas fa-dice"></i> Alguns dados:</h3>
+            <a id="dado">
+                <h3 class="my-5"> <i class="fas fa-dice"></i> Alguns dados:</h3>
+            </a>
             <article class="dados p-3 my-5 w-100 d-flex flex-column align-items-center">
-                 <h5>Relação de países que possuem o maior número de jogadores:</h5>
-                 <img class="w-100" src="./img/graficos/grafico_jogadorPais.PNG">
+                <h5>Relação de países que possuem o maior número de jogadores:</h5>
+                <img class="w-100" src="./img/graficos/grafico_jogadorPais.PNG">
             </article>
             <article class="dados p-3 my-5 w-100 d-flex flex-column align-items-center">
                 <h5>Top 3 de fases curtidas: </h5>
@@ -65,11 +101,11 @@
             </article>
             <article class="dados p-3 my-5 d-flex flex-column align-items-center">
                 <h5>Relação entre o total de jogadores e os que já criaram fases:</h5>
-                <img class="w-50" src="./img/graficos/relacao_jogadorCriador.gif"/>
+                <img class="w-50" src="./img/graficos/relacao_jogadorCriador.gif" />
             </article>
             <article class="dados p-3 my-5 d-flex flex-column align-items-center">
                 <h5>A relação entre dificuldade dos mapas e o número de tentativas:</h5>
-                <img class="w-50" src="./img/graficos/relacao_fases_numeroTentativas.png"/>
+                <img class="w-50" src="./img/graficos/relacao_fases_numeroTentativas.png" />
             </article>
             <article class="dados p-3 my-5 d-flex flex-column align-items-center">
                 <h5>Os dias da semana em que mais mapas são criados:</h5>
@@ -83,7 +119,28 @@
                 <h5>O número de jogadores que jogou a mesma fase mais de 5 vezes:</h5>
                 <img class="w-50" src="./img/graficos/jogadores_fases.PNG">
             </article>
+            <p>*Os dados aqui apresentados possuem uma margem de 0,2% de erro.</p>
         </section>
     </main>
+    <section class="d-flex justify-content-center my-5">
+        <article class="w-75">
+            <a id="informa">
+                <h3>+ Informações:</h3>
+            </a>
+            <p>Para a filtragem e análise os dados foram tratados em banco de dados MySQL com auxílio da plataforma
+                Metabase.</p>
+            <p>Para saber mais sobre o processo de criação e organização do grupo responsável por este projeto, acesse
+                nosso repositório no GitHub:
+                <a class="link" href="https://github.com/NelsonSSoares/M3-G4-SuperMarioMaker">M3-G4-SuperMarioMaker <i
+                        class="fab fa-github"></i></a>
+            </p>
+            <p>Você pode ter acesso às tabelas originais clicando <a class="link"
+                    href="https://www.kaggle.com/leomauro/smmnet/version/1?select=records.csv">aqui</a></p>
+        </article>
+    </section>
+    <footer class="d-flex justify-content-center text-center">
+        Todos os direitos Reservados © - Grupo 4 / Resilia Educação
+    </footer>
 </body>
+
 </html>
