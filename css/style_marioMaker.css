@@ -17,6 +17,12 @@ header{
     margin-top: -5%;
     box-shadow: 0px 0px 2px 0px #c8c8c8;
 }
+.logo1{
+    width: 15%
+}
+.logo2{
+    width: 20%;
+}
 .dados{
     background: #FFFFFF;
     box-shadow: 0px 0px 2px 0px #c8c8c8;
