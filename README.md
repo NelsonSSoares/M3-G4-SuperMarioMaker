@@ -3,6 +3,7 @@
 
 <p>Este é o projeto final do módulo 3 da formação em Desenvolvimento Web Full Stack da Resilia Educação.</p>
 <p>O foco do desenvolvimento foi a montagem de um dashboard, tendo como base um conjunto de dados sobre o jogo Super Mario Maker, </p>
+<a href="https://www.canva.com/design/DAEuIWd9G4g/vwAVuniU6taIt9o5cYMxUA/view?utm_content=DAEuIWd9G4g&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent">Link da apresentação</a>
 
 # As tecnologias utilizadas foram:
 <div align="center" style="display: inline_block"><br>
